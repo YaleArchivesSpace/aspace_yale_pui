@@ -4,3 +4,9 @@
     <%= link_to I18n.t('plugins.aspace_yale_pui.opac_link_label'), I18n.t('plugins.aspace_yale_pui.opac_link_url', :opac_id => @result.opac_id) %>
   </p>
 <% end %>
+<% if @result.is_a?(Resource) && @result.ead_id %>
+  <h2 class="smaller_gray"><%= I18n.t('plugins.aspace_yale_pui.handle_header') %></h2>
+  <p>
+    <%= link_to nil, I18n.t('plugins.aspace_yale_pui.handle_url', :ead_id => @result.ead_id) %>
+  </p>
+<% end %>
