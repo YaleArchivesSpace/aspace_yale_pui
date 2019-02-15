@@ -9,7 +9,7 @@ database limits.  Labels for split notes follow the convention of a numeral
 prefix e.g. "(1) My Split Note", "(2) My Split Note", etc.
 * Add a link to the OPAC on resource pages using the OPAC Id in a user_defined
 string_2.
-
+* Add a Handle link on resource pages using the EAD ID value (this should be updated, though, to use the finding aid location value, instead)
 
 This plugin will run under ArchivesSpace v2.1 or higher.
 
