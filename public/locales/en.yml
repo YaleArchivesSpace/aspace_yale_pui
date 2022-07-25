@@ -3,6 +3,6 @@ en:
     aspace_yale_pui:
       opac_link_header: Catalog Record
       opac_link_label: A record for this collection is available in Orbis, the Yale University Library catalog
-      opac_link_url: "http://hdl.handle.net/10079/bibid/%{opac_id}"
+      opac_link_url: "https://hdl.handle.net/10079/bibid/%{opac_id}"
       handle_header: Persistent URL
-      handle_url: "http://hdl.handle.net/10079/fa/%{ead_id}"
+      handle_url: "https://hdl.handle.net/10079/fa/%{ead_id}"
